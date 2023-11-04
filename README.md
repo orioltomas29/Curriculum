@@ -9,5 +9,8 @@ serietat i pel que fa conforme a la lletra d'aquest he utilitzat l'Arial i Verda
 # Figma Progect: 
 https://www.figma.com/file/8LJwL0OLkB76t6MHvZMowz/Untitled?type=design&node-id=0%3A1&mode=design&t=J6srwiSrL0azgxqY-1
 
+# Page
+https://orioltomas29.github.io/Curriculum/
+
 
 
