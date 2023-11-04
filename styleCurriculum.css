@@ -1,0 +1,171 @@
+.wrapper {
+    display: flex;  
+    flex-flow: row wrap;
+    margin: 0px;
+  }
+  
+  .wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+}
+body p{
+ font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+
+    background: #A6795A; 
+}
+
+.aside-1 {
+    flex: 1;
+    background: #E3C4A5;
+
+}
+
+.aside-2 {
+    flex: 3;    
+    background: white;
+}
+
+.headerText{
+    display: flex;  
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center; 
+    justify-content: center;
+    flex-direction: column;
+
+}
+header h1{
+    width: 450px;
+    color:#662A04;
+    padding:30px;
+    border-radius:30px 30px 0px 0px; 
+    padding-bottom: 20px;
+    margin: 0px;
+    font-size: 50px;
+    background-color:#E3C4A5 ;
+    margin-left: 40%;
+}
+header h2{
+    color:#662A04;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0px;
+    font-size: 30px;
+    background-color:#E3C4A5 ;
+    width: 450px;
+    margin-left: 40%;
+    border-radius: 0px 0px 30px 30px; 
+
+}
+header img{
+    padding: 10px;
+    margin: -200px;
+    border-radius: 50%;
+    width: 200px;
+    background-color:#A6795A ;
+    position:sticky;
+    left: 9%;
+
+}
+.aside-1 h1{
+    margin-left: 15%;
+    color: #67442E;
+    text-decoration:5px underline #67442E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contacte{
+    display: flex;
+    flex-direction: column;
+    margin-left: 13%;
+
+}
+.contacte p {
+    display: inline;
+}
+#contacte img{
+    width: 40px;
+    margin:0px;
+    padding: 6px;
+    position: sticky;
+    vertical-align: middle;
+    
+}
+
+.habilitats{
+    margin-left: 12%;
+}
+
+.habilitats ul{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2;
+  width: 300px;
+  font-size: 18px;
+  
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2; 
+    font-size: 18px;
+}
+
+.educació{
+    margin-left: 12%;
+}
+
+.educació ul,p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2px;
+    font-size: 18px;
+}
+
+li::marker {
+    color: #67442E;
+    font-size: 30px;
+}
+
+.aside-2 h1{
+    margin: 4% 10% 4% 10%;
+    color: #67442E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration:5px underline #67442E;
+
+}
+.coneix-me p{
+    margin: 4% 10% 4% 10%;
+    font-size: 20px;
+}
+.contentExperienciaLaboral li{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 4% 1% 1% 10%;
+    font-size: 20px;
+}
+.contentExperienciaLaboral p{
+    margin-left: 16%;
+    font-size: 18px;
+}
+.contentExperienciaLaboral{
+    flex:4;
+}
+.llengues{
+    width: 300px;
+    background-color: #c9b3a4;
+    border:#67442E 2px solid;
+    border-radius:  10px 10px 10px 10px;
+    height: 250px;   
+    margin: 13% 10% 7% 10%;
+}
+.llengues li{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10% 30% 7% 10%;
+    font-size: 20px;
+}
+.bottomAside{
+    display: flex;  
+    flex-flow: row wrap;
+    margin: 0% 10% 4% 5.2%;
+    
+}
